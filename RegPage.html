@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Домашка</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/hw.css">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<header class="header">
+		<nav class="nav">
+			<a class="navLink" href="/employees">Employees</a>
+			<a class="navLink" href="/reports">Reports</a>
+		</nav>
+	</header>
+	<form action="https://localhost:44355/Employee/create" method="Post" class="Employee">
+		<h1 class="login">Регистрация</h1>
+		<input type="text" name="LastName" placeholder="Фамилия" autocomplete="off">
+		<input type="text" name="FirstName" placeholder="Имя" autocomplete="off">
+		<input type="text" name="Patronymic" placeholder="Отчество" autocomplete="off">
+		<input type="text" name="Email" placeholder="Email" autocomplete="off">
+		<input type="text" name="Login" placeholder="Логин" autocomplete="off">
+		<input type="password" name="Password" placeholder="Пароль" autocomplete="off">
+		<input type="password" name="Password2" placeholder="Повторите пароль" autocomplete="off">
+		<input type="submit" value="Отправить"></p>
+	</form>
+	
+</body>
+</html>

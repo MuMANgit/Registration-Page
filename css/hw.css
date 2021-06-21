@@ -1,0 +1,117 @@
+body{
+	background-color: rgb(220,220,220);
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+form.Employee{
+	text-align: center;
+	padding: 40px;
+	border: 3px solid rgb(0, 0, 255, 1);
+	background-color: rgb(220,220,220);
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin: 20px auto;
+}
+
+::placeholder{
+	color: blue;
+}
+
+
+.Employee input{
+	width: 200px;
+	height: 20px;
+	border: 2px solid rgb(0, 0, 255, 1);
+}
+
+.Employee input[type="text"],.Employee input[type="password"] {
+	background-color: rgb(220,220,220);
+	color: blue;
+	margin: 10px auto;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	
+	outline: 0;
+	display: block;
+}
+
+
+
+.Employee input[type="text"]:focus,.Employee input[type="password"]:focus{
+	width: 250px;
+	border-color: white;
+	color: white;
+	transition: 0.25s;
+}
+
+.Employee input[type="text"]:focus::placeholder, .Employee input[type="password"]:focus::placeholder{
+	color: white;
+}
+
+.Employee input[type="submit"]{
+	background-color: blue;
+	border: 0;
+	color: rgb(220,220,220);
+	font-family: 'Press Start 2P', cursive;
+	
+	margin: 10px auto;
+	cursor: pointer;
+	width: 190px;
+
+}
+
+.Employee input[type="submit"]:active{
+	width: 250px;
+}
+
+h1.login{
+	font-size: 2em;
+	padding-bottom: 5px;
+	color: rgb(0, 0, 255, 1);
+	text-transform: uppercase;
+	
+	
+}
+
+.header{
+	width: 100%;
+	height: 32px;
+
+	position: fixed;
+
+	background-color: rgb(0, 0, 255, 1);
+	top: 0;
+}
+
+.nav{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 2em;
+	text-transform: uppercase;
+
+}
+
+a.navLink{
+	text-decoration: none;
+	color: rgb(220,220,220);
+}
+
+a.navLink:visited{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+a.navLink:link{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+a.navLink:hover{
+	font-size: 32px;
+	width: 25px;
+	background-color: rgb(220,220,220);
+	height: 10px;
+	color: blue;	
+}
